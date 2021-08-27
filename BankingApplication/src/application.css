@@ -1,0 +1,14 @@
+.root {
+	-fx-background-color: lightcyan;
+}
+
+.button {
+    -fx-background-color: blue;
+    -fx-text-fill: white;
+}
+.button:hover {
+	-fx-background-color: #4444ff;
+}
+.button:pressed{
+	-fx-background-color: blue;
+}
