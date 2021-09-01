@@ -14,16 +14,16 @@
             <Font name="System Bold" size="24.0" />
          </font>
       </Label>
-      <TextField layoutX="35.0" layoutY="135.0" prefWidth="380.0" />
-      <TextField layoutX="35.0" layoutY="235.0" prefWidth="380.0" />
-      <TextField layoutX="35.0" layoutY="185.0" prefWidth="380.0" />
-      <TextField layoutX="35.0" layoutY="285.0" prefWidth="380.0" />
-      <TextField layoutX="35.0" layoutY="385.0" prefWidth="380.0" />
-      <TextField layoutX="35.0" layoutY="335.0" prefWidth="380.0" />
+      <TextField fx:id="registerUsernameTF" layoutX="35.0" layoutY="135.0" prefWidth="380.0" promptText="Limited to 30 characters" />
+      <TextField fx:id="registerPhoneNumberTF" layoutX="35.0" layoutY="235.0" prefWidth="380.0" promptText="Please use the format xxx-xxx-xxx" />
+      <TextField fx:id="registerEmailTF" layoutX="35.0" layoutY="185.0" prefWidth="380.0" />
+      <TextField fx:id="registerInitialDepositTF" layoutX="35.0" layoutY="285.0" prefWidth="380.0" promptText="Must deposit atleast 100 dollars to begin with" />
+      <TextField fx:id="registerPassword2TF" layoutX="35.0" layoutY="385.0" prefWidth="380.0" />
+      <TextField fx:id="registerPasswordTF" layoutX="35.0" layoutY="335.0" prefWidth="380.0" />
       <Label layoutX="35.0" layoutY="118.0" text="Username" />
       <Label layoutX="35.0" layoutY="168.0" text="Email" />
       <Label layoutX="35.0" layoutY="218.0" text="Phone Number" />
-      <Label layoutX="35.0" layoutY="268.0" text="initial Deposit" />
+      <Label layoutX="35.0" layoutY="268.0" text="Initial Deposit" />
       <Label layoutX="35.0" layoutY="318.0" text="Password" />
       <Label layoutX="35.0" layoutY="368.0" text="Confirm Password" />
       <Hyperlink layoutX="34.0" layoutY="424.0" onAction="#backPressed" text="&lt;&lt; Back To Login" />
@@ -32,5 +32,10 @@
             <Font name="System Bold" size="13.0" />
          </font>
       </Button>
+      <Label fx:id="registerStatus" layoutX="155.0" layoutY="477.0" textFill="RED">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
    </children>
 </Pane>
