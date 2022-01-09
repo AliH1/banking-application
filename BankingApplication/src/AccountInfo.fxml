@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Hyperlink?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.text.Font?>
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="320.0" prefWidth="300.0" xmlns="http://javafx.com/javafx/16" xmlns:fx="http://javafx.com/fxml/1" fx:controller="BankingAppController">
+   <children>
+      <Label layoutX="73.0" layoutY="35.0" text="Account Info">
+         <font>
+            <Font name="System Bold" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="10.0" layoutY="120.0" text="Username:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="10.0" layoutY="200.0" text="Phone Number:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="10.0" layoutY="160.0" text="Email:">
+         <font>
+            <Font name="System Bold" size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="phoneNumber" layoutX="130.0" layoutY="200.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="email" layoutX="130.0" layoutY="160.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label fx:id="username" layoutX="130.0" layoutY="120.0">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Hyperlink layoutX="16.0" layoutY="273.0" onAction="#backPressed" text="&lt;&lt; Back To Balance" />
+   </children>
+</Pane>

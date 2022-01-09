@@ -3,6 +3,7 @@
 <?import javafx.scene.control.Button?>
 <?import javafx.scene.control.Hyperlink?>
 <?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
 <?import javafx.scene.control.TextField?>
 <?import javafx.scene.layout.Pane?>
 <?import javafx.scene.text.Font?>
@@ -18,8 +19,6 @@
       <TextField fx:id="registerPhoneNumberTF" layoutX="35.0" layoutY="235.0" prefWidth="380.0" promptText="Please use the format xxx-xxx-xxx" />
       <TextField fx:id="registerEmailTF" layoutX="35.0" layoutY="185.0" prefWidth="380.0" />
       <TextField fx:id="registerInitialDepositTF" layoutX="35.0" layoutY="285.0" prefWidth="380.0" promptText="Must deposit atleast 100 dollars to begin with" />
-      <TextField fx:id="registerPassword2TF" layoutX="35.0" layoutY="385.0" prefWidth="380.0" />
-      <TextField fx:id="registerPasswordTF" layoutX="35.0" layoutY="335.0" prefWidth="380.0" />
       <Label layoutX="35.0" layoutY="118.0" text="Username" />
       <Label layoutX="35.0" layoutY="168.0" text="Email" />
       <Label layoutX="35.0" layoutY="218.0" text="Phone Number" />
@@ -37,5 +36,7 @@
             <Font name="System Bold" size="12.0" />
          </font>
       </Label>
+      <PasswordField fx:id="registerPasswordTF" layoutX="35.0" layoutY="335.0" prefWidth="380.0" />
+      <PasswordField fx:id="registerPassword2TF" layoutX="35.0" layoutY="385.0" prefWidth="380.0" />
    </children>
 </Pane>

@@ -1,14 +1,30 @@
 .root {
 	-fx-background-color: lightcyan;
 }
-
 .button {
     -fx-background-color: blue;
     -fx-text-fill: white;
+    -fx-font-weight: bold;
 }
 .button:hover {
 	-fx-background-color: #4444ff;
+	-fx-text-fill: white;
+    -fx-font-weight: bold;
 }
 .button:pressed{
 	-fx-background-color: blue;
+	-fx-text-fill: white;
+    -fx-font-weight: bold;
+}
+.split-menu-button .arrow-button {
+    -fx-background-color: lightblue;
+}
+.split-menu-button .label {
+    -fx-background-color: blue;
+    -fx-font-weight:bold;
+    -fx-text-fill:white;
+}
+
+.split-menu-button .arrow {
+    -fx-background-color: white;
 }
