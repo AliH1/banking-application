@@ -186,7 +186,7 @@ public class BankingAppController implements Initializable {
 		    Statement statement = connection.createStatement();
 			statement.executeUpdate(query);
 			depositTF.setText(null);
-			System.out.println("deposited: "+ amount);
+			updateBalance();
 		} catch (SQLException e1) {
 			e1.printStackTrace();
 		}
@@ -201,7 +201,7 @@ public class BankingAppController implements Initializable {
 		    Statement statement = connection.createStatement();
 			statement.executeUpdate(query);
 			withDrawTF.setText(null);
-			System.out.println("withdrew: "+ amount);
+			updateBalance();
 		} catch (SQLException e1) {
 			e1.printStackTrace();
 		}
