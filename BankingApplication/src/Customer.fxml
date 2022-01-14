@@ -32,7 +32,7 @@
       </SplitMenuButton>
       <TextField fx:id="withDrawTF" layoutX="10.0" layoutY="280.0" prefWidth="160.0" promptText="Enter Amount to Withdraw" />
       <TextField fx:id="depositTF" layoutX="10.0" layoutY="220.0" prefWidth="160.0" promptText="Enter Amount to Deposit" />
-      <Label fx:id="errorLabel" alignment="CENTER" layoutX="42.0" layoutY="344.0" text="Please Enter a valid amount to deposit" textFill="RED">
+      <Label fx:id="errorLabel" alignment="CENTER" layoutX="42.0" layoutY="344.0" textFill="RED">
          <font>
             <Font name="System Bold" size="12.0" />
          </font>
